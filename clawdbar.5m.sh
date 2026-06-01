@@ -1,12 +1,15 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # <xbar.title>clawdbar</xbar.title>
-# <xbar.version>2.0</xbar.version>
+# <xbar.version>v2.0</xbar.version>
 # <xbar.author>chao</xbar.author>
-# <xbar.desc>Show Claude Code 5h/7d rate-limit usage as a mini progress bar in the macOS menu bar, using Claude's official colors.</xbar.desc>
+# <xbar.author.github>sunce764</xbar.author.github>
+# <xbar.desc>Claude Code 5h/7d rate-limit usage as a mini progress bar in the menu bar, in Claude's official colors.</xbar.desc>
+# <xbar.image>https://raw.githubusercontent.com/sunce764/clawdbar/main/docs/demo.png</xbar.image>
 # <xbar.dependencies>python3,curl,Pillow</xbar.dependencies>
+# <xbar.abouturl>https://github.com/sunce764/clawdbar</xbar.abouturl>
 #
-# Refresh interval is set by the filename: claude-usage.5m.sh = every 5 minutes.
+# Refresh interval is set by the filename: clawdbar.5m.sh = every 5 minutes.
 # The official usage endpoint rate-limits aggressively — do NOT go below ~5 minutes.
 
 # --- Find a python3 that has Pillow installed -------------------------------

@@ -40,8 +40,8 @@ brew install --cask swiftbar
 pip3 install Pillow
 
 mkdir -p ~/SwiftBarPlugins
-cp claude-usage.5m.sh ~/SwiftBarPlugins/
-chmod +x ~/SwiftBarPlugins/claude-usage.5m.sh
+cp clawdbar.5m.sh ~/SwiftBarPlugins/
+chmod +x ~/SwiftBarPlugins/clawdbar.5m.sh
 ```
 
 Then in SwiftBar → **Change Plugin Folder…** → pick `~/SwiftBarPlugins` (SwiftBar is sandboxed, so it needs you to select the folder once to grant access). On first run, click **Always Allow** when macOS asks for Keychain access.
