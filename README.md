@@ -2,6 +2,11 @@
 
 > Claude usage in your menu bar — in Claude's own exact colors.
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg?logo=apple&logoColor=white)
+![SwiftBar | xbar](https://img.shields.io/badge/SwiftBar%20%7C%20xbar-plugin-FF6F61.svg)
+![Shell](https://img.shields.io/badge/shell-bash-4EAA25.svg?logo=gnubash&logoColor=white)
+
 A tiny [SwiftBar](https://github.com/swiftbar/SwiftBar) plugin that shows your **Claude Code 5-hour and 7-day rate-limit usage** in the macOS menu bar, as mini progress bars painted in Claude's **official, pixel-perfect colors**.
 
 ![demo](docs/demo.png)
