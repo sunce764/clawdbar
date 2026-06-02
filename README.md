@@ -57,6 +57,7 @@ Then in SwiftBar → **Change Plugin Folder…** → pick `~/SwiftBarPlugins` (S
 
 - **Why an image instead of colored text?** SwiftBar doesn't support 24-bit truecolor ANSI in menu-bar titles — a `\033[38;2;r;g;bm` sequence gets mis-parsed and can even break rendering. Plain text is stuck with the 16-color ANSI palette, which can't reproduce `#3A6DCB` & co. Drawing a PNG is the only way to hit the exact official colors.
 - The dropdown shows each window's reset time + countdown and a **Refresh now** button.
+- **Behind a proxy / in a geo-blocked region?** Anthropic returns `forbidden / "Request not allowed"` on direct connections from some regions, and SwiftBar doesn't inherit your shell's `http(s)_proxy` vars. The plugin reads your **macOS system proxy** (`scutil --proxy`) and routes the API call through it — so it just works as long as your VPN/proxy is set as the system proxy. Turn the proxy off and it falls back to a direct connection.
 - Tweak colors / thresholds / layout in `draw_icon()` inside the script.
 
 ## License
